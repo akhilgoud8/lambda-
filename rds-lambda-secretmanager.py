@@ -26,7 +26,7 @@ def connect_to_rds(secret):
 
 # Lambda handler
 def lambda_handler(event, context):
-    secret_name = "rds!db-b6e6b6a3-f337-4c9d-9ace-7de0a88e602b"  # Replace with your secret name
+    secret_name = "rds!db-da411727-3172-4eb3-b78f-ae6b53c04abe"  # Replace with your secret name
     try:
         secret = get_secret(secret_name)
         connection = connect_to_rds(secret)
