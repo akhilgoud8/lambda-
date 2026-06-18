@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 # Hardcoded CloudFront Distribution ID
-CLOUDFRONT_DISTRIBUTION_ID = "E2J0IIVEQJMGIQ"  #give your cloudfront id
+CLOUDFRONT_DISTRIBUTION_ID = "E20Z2F4NXTXO51"  #give your cloudfront id
 
 # Initialize CloudFront client
 cloudfront_client = boto3.client("cloudfront")
